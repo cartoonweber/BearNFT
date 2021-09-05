@@ -1,0 +1,36 @@
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+h1, h3, p {
+  font-family: "Roboto Mono";
+}
+
+p{
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+*, :after, :before {
+    --tw-shadow: 0 0 transparent;
+    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59,130,246,0.5);
+    --tw-ring-offset-shadow: 0 0 transparent;
+    --tw-ring-shadow: 0 0 transparent;
+}
+
+*, :after, :before {
+    --tw-border-opacity: 1;
+    border-color: rgba(229,231,235,var(--tw-border-opacity));
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid;
+}
